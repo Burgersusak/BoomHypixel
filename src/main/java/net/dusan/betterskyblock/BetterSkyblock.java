@@ -17,7 +17,7 @@ import org.slf4j.Logger;
 @Mod(BetterSkyblock.MOD_ID)
 public class BetterSkyblock {
     public static final String MOD_ID = "betterskyblock";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public BetterSkyblock(FMLJavaModLoadingContext context)
     {

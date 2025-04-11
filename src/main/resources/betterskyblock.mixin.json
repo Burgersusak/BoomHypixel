@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "net.dusan.betterskyblock.util",
+  "mixins": [
+    "ExampleMixin"
+  ],
+  "client": [],
+  "server": [],
+  "refmap": "betterskyblock.refmap.json",
+  "minVersion": "0.8"
+}
