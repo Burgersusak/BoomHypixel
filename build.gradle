@@ -150,8 +150,8 @@ dependencies {
 }
 mixin {
     // MixinGradle Settings
-    add sourceSets.main, 'betterskyblock.mixin.json'
-    config 'betterskyblock.refmap.json'
+    add sourceSets.main, 'betterskyblock.refmap.json'
+    config 'betterskyblock.mixin.json'
 
     debug.verbose = true
     debug.export = true

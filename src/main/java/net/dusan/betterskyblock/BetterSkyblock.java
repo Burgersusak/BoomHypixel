@@ -1,6 +1,8 @@
 package net.dusan.betterskyblock;
 
 import com.mojang.logging.LogUtils;
+import net.dusan.betterskyblock.block.Modblocks;
+import net.dusan.betterskyblock.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -19,9 +21,12 @@ public class BetterSkyblock {
     public static final String MOD_ID = "betterskyblock";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public BetterSkyblock(FMLJavaModLoadingContext context)
-    {
+    public BetterSkyblock(FMLJavaModLoadingContext context) {
+
         IEventBus modEventBus = context.getModEventBus();
+
+        ModItems.register(modEventBus);
+        Modblocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

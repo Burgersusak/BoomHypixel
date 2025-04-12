@@ -1,0 +1,35 @@
+[12Apr2025 15:34:09.079] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\Admin\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, betterskyblock, --all, --output, C:\Users\Admin\Desktop\Dusan\Block\src\generated\resources, --existing, C:\Users\Admin\Desktop\Dusan\Block\src\main\resources, --mixin.config, betterskyblock.mixin.json]
+[12Apr2025 15:34:09.082] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.8 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[12Apr2025 15:34:09.166] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[12Apr2025 15:34:09.205] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Admin/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[12Apr2025 15:34:09.463] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Admin\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.0\f0c0b352173d0a378cbdcec9cfc4ba65899a721\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[12Apr2025 15:34:09.466] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Admin\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.0\e862740d8c84d08dbfedea412bef88fe42e727c5\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[12Apr2025 15:34:09.470] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Admin\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.0\5719b3a297a33f877ed5dde4cb4bd75c859096af\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[12Apr2025 15:34:09.474] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Admin\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.0\235975dafa4309945b59c56b53f31dc5b65a6051\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[12Apr2025 15:34:09.534] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[12Apr2025 15:34:10.424] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\Admin\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, betterskyblock, --all, --output, C:\Users\Admin\Desktop\Dusan\Block\src\generated\resources, --existing, C:\Users\Admin\Desktop\Dusan\Block\src\main\resources]
+[12Apr2025 15:34:10.462] [main/INFO] [mixin/]: Attempting to load Fernflower decompiler (Threaded mode)
+[12Apr2025 15:34:10.464] [main/INFO] [mixin/]: Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
+[12Apr2025 15:34:10.466] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[12Apr2025 15:34:10.466] [main/INFO] [mixin/]: Selecting config betterskyblock.mixin.json
+[12Apr2025 15:34:10.469] [main/WARN] [mixin/]: Reference map 'betterskyblock.refmap.json' for betterskyblock.mixin.json could not be read. If this is a development environment you can ignore this message
+[12Apr2025 15:34:10.469] [main/INFO] [mixin/]: Preparing betterskyblock.mixin.json (1)
+[12Apr2025 15:34:10.670] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [betterskyblock]
+[12Apr2025 15:34:13.804] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[12Apr2025 15:34:13.805] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[12Apr2025 15:34:14.056] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Admin/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_parchment_1.19.3-2023.03.12-1.20/forge-1.20.1-47.4.0_mapped_parchment_1.19.3-2023.03.12-1.20-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[12Apr2025 15:34:14.056] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Admin/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.0_mapped_parchment_1.19.3-2023.03.12-1.20/forge-1.20.1-47.4.0_mapped_parchment_1.19.3-2023.03.12-1.20-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[12Apr2025 15:34:14.169] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[12Apr2025 15:34:14.171] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 1 ms
+[12Apr2025 15:34:14.171] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[12Apr2025 15:34:14.212] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 41 ms
+[12Apr2025 15:34:14.212] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
+[12Apr2025 15:34:14.277] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 63 ms
+[12Apr2025 15:34:14.277] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: betterskyblock
+[12Apr2025 15:34:14.277] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: betterskyblock finished after 0 ms
+[12Apr2025 15:34:14.277] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: betterskyblock
+[12Apr2025 15:34:14.277] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: betterskyblock finished after 0 ms
+[12Apr2025 15:34:14.277] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us
+[12Apr2025 15:34:14.277] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us finished after 0 ms
+[12Apr2025 15:34:14.277] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 107 ms
+[12Apr2025 15:34:14.284] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 1, old count: 0, new count: 2, removed stale: 0, written: 1
