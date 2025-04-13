@@ -1,6 +1,7 @@
 package net.dusan.betterskyblock.datagen;
 
 import net.dusan.betterskyblock.BetterSkyblock;
+import net.dusan.betterskyblock.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -16,7 +17,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-
+        simpleItem(ModItems.PESTHUNTING_GUIDE);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

@@ -1,4 +1,4 @@
-package net.dusan.betterskyblock.util;
+package net.dusan.betterskyblock.util.mixin;
 
 import net.dusan.betterskyblock.BetterSkyblock;
 import net.minecraft.core.BlockPos;

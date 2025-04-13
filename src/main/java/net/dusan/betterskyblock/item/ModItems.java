@@ -1,6 +1,8 @@
 package net.dusan.betterskyblock.item;
 
 import net.dusan.betterskyblock.BetterSkyblock;
+import net.dusan.betterskyblock.item.custom.SkyblockItem;
+import net.dusan.betterskyblock.util.Rarity;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -12,8 +14,8 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, BetterSkyblock.MOD_ID);
 
 
-    public static final RegistryObject<Item> PESTHUNTING_GUIDE = ITEMS.register("alexandrite",
-            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PESTHUNTING_GUIDE = ITEMS.register("pesthunting_guide",
+            () -> new SkyblockItem(new Item.Properties(), "pesthunting_guide", Rarity.LEGENDARY));
 
 
     public static void register(IEventBus eventBus) {

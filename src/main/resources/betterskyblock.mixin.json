@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "net.dusan.betterskyblock.util",
+  "package": "net.dusan.betterskyblock.util.mixin",
   "mixins": [
     "ExampleMixin"
   ],
