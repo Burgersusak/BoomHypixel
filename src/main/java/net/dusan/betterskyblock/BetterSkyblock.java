@@ -2,6 +2,7 @@ package net.dusan.betterskyblock;
 
 import com.mojang.logging.LogUtils;
 import net.dusan.betterskyblock.block.Modblocks;
+import net.dusan.betterskyblock.item.ModCreativeModeTabs;
 import net.dusan.betterskyblock.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -27,6 +28,7 @@ public class BetterSkyblock {
 
         ModItems.register(modEventBus);
         Modblocks.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

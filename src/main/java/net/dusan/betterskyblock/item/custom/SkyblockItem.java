@@ -12,12 +12,10 @@ import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
 public class SkyblockItem extends Item {
-    private final String itemId;
     private final Rarity baseRarity;
 
-    public SkyblockItem(Properties pProperties, String id, Rarity rarity) {
+    public SkyblockItem(Properties pProperties, Rarity rarity) {
         super(pProperties);
-        this.itemId = id;
         this.baseRarity = rarity;
     }
 
@@ -26,15 +24,22 @@ public class SkyblockItem extends Item {
         Rarity rarity = Rarity.getRarityFromStack(stack, baseRarity);
 
         //translated tooltip
-        tooltip.add(Component.translatable("tooltip.mccourse." + itemId + ".tooltip"));
+        tooltip.add(Component.translatable("tooltip." + this.getDescriptionId() + ".tooltip"));
 
-        // rarity with color
-        tooltip.add(Component.literal("\n" + rarity.getFormattedName()));
-
-        // upgrade status
+        //upgrade text
         if (stack.getTag() != null && stack.getTag().getBoolean("HasUpgradedRarity")) {
-            tooltip.add(Component.literal("§7Rarity upgraded"));
+            tooltip.add(Component.literal("\n§l§dRarity upgraded§r"));
+            tooltip.add(Component.literal(rarity.getColor()+ "§kb§r" + rarity.getName() + "§kz"));
+        } else {
+            tooltip.add(Component.literal(rarity.getName()));
         }
+    }
+
+    @Override
+    public Component getName(ItemStack stack) {
+        Rarity rarity = getSRarity(stack); // gets current rarity, even upgraded one
+        String coloredName = rarity.getColor() + Component.translatable(this.getDescriptionId()).getString();
+        return Component.literal(coloredName);
     }
 
     public Rarity getSRarity(ItemStack stack) {

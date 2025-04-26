@@ -11,7 +11,7 @@ import net.minecraft.world.item.ItemStack;
 
 public class UpgradeRarityCommand {
     public UpgradeRarityCommand(CommandDispatcher<CommandSourceStack> dispatcher) {
-        dispatcher.register(Commands.literal("home").then(Commands.literal("set")
+        dispatcher.register(Commands.literal("skyblock").then(Commands.literal("upgraderarity")
                 .executes(this::execute)));
     }
 

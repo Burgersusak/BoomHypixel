@@ -1,4 +1,21 @@
 {
+  "creativetab.better_skyblock.item_tab": "Item Tab",
+  "item.betterskyblock.abiphone_x_plus": "Abiphone X Plus",
+  "item.betterskyblock.abiphone_x_plus_special_edition": "Abiphone X Plus Special Edition",
+  "item.betterskyblock.abiphone_xi_ultra": "Abiphone XI Ultra",
+  "item.betterskyblock.abiphone_xi_ultra_style": "Abiphone XI Ultra Style",
+  "item.betterskyblock.abiphone_xii_mega": "Abiphone XII Mega",
+  "item.betterskyblock.abiphone_xii_mega_color": "Abiphone XII Mega Color",
+  "item.betterskyblock.abiphone_xiii_pro": "Abiphone XIII Pro",
+  "item.betterskyblock.abiphone_xiii_pro_giga": "Abiphone XIII Pro Giga",
   "item.betterskyblock.pesthunting_guide": "A Beginner's Guide To Pesthunting",
-  "tooltip.mccourse.betterskyblock:pesthunting_guide.tooltip": "§0Combinable in anvil\n\n§7When applied to armor, increases its\n§1Pesterminator§7 level by §a!§7!\n§0Can be applied once,\nRequires Pesterminator V!\n\nAn old, well-used handbook detailing\nhow to wrangle various pest types.\nMany of these pests don’t seem to\nexist anymore - looks like someone\ndid a good job!"
+  "tooltip.item.betterskyblock.abiphone_x_plus.tooltip": "§7A device that can be used to contact\npeople! Click NPCs to add them\nto your contacts!\n\nFeatures:\nMaximum Contacts:§b5\n\n§eRight-click to open!\n",
+  "tooltip.item.betterskyblock.abiphone_x_plus_special_edition.tooltip": "§7A device that can be used to contact\npeople! Click NPCs to add them\nto your contacts!\n\nFeatures:\nMaximum Contacts:§b5\n\n§eRight-click to open!\n",
+  "tooltip.item.betterskyblock.abiphone_xi_ultra.tooltip": "§7A device that can be used to contact\npeople! Click NPCs to add them\nto your contacts!\n\nFeatures:\nMaximum Contacts:§b5\n§7Maximum Discs:§b2\n\n§eRight-click to open!\n",
+  "tooltip.item.betterskyblock.abiphone_xi_ultra_style.tooltip": "§7A device that can be used to contact\npeople! Click NPCs to add them\nto your contacts!\n\nFeatures:\nMaximum Contacts:§b5\n§7Maximum Discs:§b2\n§aContacts Directory\n\n§eRight-click to open!\n",
+  "tooltip.item.betterskyblock.abiphone_xii_mega.tooltip": "§7A device that can be used to contact\npeople! Click NPCs to add them\nto your contacts!\n\nFeatures:\nMaximum Contacts:§b7\n§7Maximum Discs:§b4\n§aContacts Directory\n\n§eRight-click to open!\n",
+  "tooltip.item.betterskyblock.abiphone_xii_mega_color.tooltip": "§7A device that can be used to contact\npeople! Click NPCs to add them\nto your contacts!\n\nFeatures:\nMaximum Contacts:§b7\n§7Maximum Discs:§b4\n§aContacts Directory\n§dTic Tac Toe\n\n§eRight-click to open!\n",
+  "tooltip.item.betterskyblock.abiphone_xiii_pro.tooltip": "§7A device that can be used to contact\npeople! Click NPCs to add them\nto your contacts!\n\nFeatures:\nMaximum Contacts:§b8\n§7Maximum Discs:§b10\n§aContacts Directory\n§dTic Tac Toe\n\n§eRight-click to open!\n",
+  "tooltip.item.betterskyblock.abiphone_xiii_pro_giga.tooltip": "§7A device that can be used to contact\npeople! Click NPCs to add them\nto your contacts!\n\nFeatures:\nMaximum Contacts:§b7\n§7Maximum Discs:§b4\n§aContacts Directory\n§cDo Not Disturb Mode\n§dTic Tac Toe\nSnake\n\n§eRight-click to open!\n",
+  "tooltip.item.betterskyblock.pesthunting_guide.tooltip": "§8Combinable in anvil\n\n§7When applied to armor, increases its\n§9Pesterminator§7 level by §a1§7!\n§8Can be applied once,\nRequires Pesterminator V!\n\nAn old, well-used handbook detailing\nhow to wrangle various pest types.\nMany of these pests don’t seem to\nexist anymore - looks like someone\ndid a good job!"
 }

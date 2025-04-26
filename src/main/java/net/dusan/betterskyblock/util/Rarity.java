@@ -13,14 +13,19 @@ public enum Rarity {
     DIVINE("§bDIVINE"),
     SPECIAL("§cSPECIAL");
 
-    private final String formattedName;
+    private final String name;
 
-    Rarity(String formattedName) {
-        this.formattedName = formattedName;
+
+    Rarity(String name) {
+        this.name = name;
     }
 
-    public String getFormattedName() {
-        return formattedName;
+    public String getName() {
+        return name;
+    }
+
+    public String getColor() {
+      return "§" + name.charAt(1);
     }
 
     public static Rarity getRarityFromStack(ItemStack stack, Rarity defaultRarity) {
